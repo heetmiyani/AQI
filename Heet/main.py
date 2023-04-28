@@ -6,7 +6,7 @@ st.set_page_config(
     page_icon="🏠"
 )
 st.title("AIR QUALITY ")
-data = pd.read_csv('data.csv', header=0)
+data = pd.read_csv('https://raw.githubusercontent.com/heetmiyani/AQI/main/Heet/data.csv', header=0)
 # data,predictions,accuracy= doUserTesting()
 
 st.text("Raw data")
