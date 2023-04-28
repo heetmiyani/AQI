@@ -26,7 +26,7 @@ from sklearn.linear_model import Lasso,Ridge,LinearRegression
 #   return(data,y_pred, acc_score)
 
 def doUserTesting(row,result):
-  data = pd.read_csv('data.csv', header=0)
+  data = pd.read_csv('https://raw.githubusercontent.com/heetmiyani/AQI/main/Heet/data.csv', header=0)
   data.fillna(method='ffill', inplace= True)
 
   X = data[["CO(GT)","PT08.S1(CO)","C6H6(GT)","PT08.S2(NMHC)","NOx(GT)","PT08.S3(NOx)","NO2(GT)","PT08.S4(NO2)","PT08.S5(O3)","T","AH"]]
