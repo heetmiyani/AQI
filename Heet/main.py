@@ -1,4 +1,3 @@
-from turtle import color
 import streamlit as st
 from model import doUserTesting
 import pandas as pd
