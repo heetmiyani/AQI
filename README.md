@@ -77,7 +77,9 @@ Key findings:
    cd AQI
    
 2. Install dependencies:
+   ```bash
    pip install -r requirements.txt
    
-3. Run the analysis:
+4. Run the analysis:
+   ```bash
    python main.py
